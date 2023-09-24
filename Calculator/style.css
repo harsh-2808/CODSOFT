@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height:100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #7D7C7C;
+    border-radius: 10px;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input {
+    border: none;
+    width:90%;
+    height:30px;
+    margin: 10px;
+}
+
+.row1{
+    margin: 0px;
+}
+
+.row {
+    margin: 8px;
+}
+
+.equal {
+    width:120px;
+}
